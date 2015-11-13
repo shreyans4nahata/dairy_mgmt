@@ -2,3 +2,16 @@ C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_m
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.admin_login.resources
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form1.resources
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.csproj.GenerateResource.Cache
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormMain.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormPlant.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormPlantSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormRetailer.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormRetailerSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormAdmin.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormSeller.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormSellerSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormStaff.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormStaffSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.csproj.GenerateResource.Cache
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.exe
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.pdb
