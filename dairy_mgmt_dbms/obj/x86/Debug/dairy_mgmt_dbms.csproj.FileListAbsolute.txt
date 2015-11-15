@@ -45,3 +45,4 @@ C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_m
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.exe.manifest
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.application
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.csprojResolveAssemblyReference.cache
+C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Formsellerorder.resources

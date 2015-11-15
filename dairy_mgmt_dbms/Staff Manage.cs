@@ -29,7 +29,7 @@ namespace dairy_mgmt_dbms
         {
             try
             {
-                int? id, val;
+                int? id;
                 id = int.Parse(textBox1.Text);
                 if (id != null)
                 {
