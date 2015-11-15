@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace dairy_mgmt_dbms
 {
-    public partial class admin_login : Form
+    public partial class Form12 : Form
     {
-        public admin_login()
+        public Form12()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -13,6 +13,23 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <PublishUrl>C:\deploy\myapplication\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -33,27 +50,188 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>ABCE92AE4ED39C1D26F6E9644993770E68F7D320</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>dairy_mgmt_dbms_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
-    <Compile Include="admin1.cs">
+    <Compile Include="Admin Page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="admin1.Designer.cs">
-      <DependentUpon>admin1.cs</DependentUpon>
+    <Compile Include="Admin Page.Designer.cs">
+      <DependentUpon>Admin Page.cs</DependentUpon>
     </Compile>
-    <Compile Include="admin_login.cs">
+    <Compile Include="Farm Bill.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="admin_login.Designer.cs">
-      <DependentUpon>admin_login.cs</DependentUpon>
+    <Compile Include="Farm Bill.Designer.cs">
+      <DependentUpon>Farm Bill.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Milk Entry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Milk Entry.Designer.cs">
+      <DependentUpon>Milk Entry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seller Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seller Bill.Designer.cs">
+      <DependentUpon>Seller Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product Bill.Designer.cs">
+      <DependentUpon>Product Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product Details.Designer.cs">
+      <DependentUpon>Product Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product Details Entry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product Details Entry.Designer.cs">
+      <DependentUpon>Product Details Entry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order Milk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order Milk.Designer.cs">
+      <DependentUpon>Order Milk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Delete.Designer.cs">
+      <DependentUpon>Staff Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Milk Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Milk Information.Designer.cs">
+      <DependentUpon>Milk Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Manage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Manage.Designer.cs">
+      <DependentUpon>Staff Manage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Information.Designer.cs">
+      <DependentUpon>Staff Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Information Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Information Select.Designer.cs">
+      <DependentUpon>Staff Information Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plant Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plant Page.Designer.cs">
+      <DependentUpon>Plant Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seller Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seller Page.Designer.cs">
+      <DependentUpon>Seller Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retailer Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retailer Page.Designer.cs">
+      <DependentUpon>Retailer Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Page.Designer.cs">
+      <DependentUpon>Staff Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plant Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plant Login.Designer.cs">
+      <DependentUpon>Plant Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plant Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plant Signup.Designer.cs">
+      <DependentUpon>Plant Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Retailer Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retailer Login.Designer.cs">
+      <DependentUpon>Retailer Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Retailer Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Retailer Signup.Designer.cs">
+      <DependentUpon>Retailer Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Login.Designer.cs">
+      <DependentUpon>Admin Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seller Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seller Login.Designer.cs">
+      <DependentUpon>Seller Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seller Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seller Signup.Designer.cs">
+      <DependentUpon>Seller Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Login.Designer.cs">
+      <DependentUpon>Staff Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Signup.Designer.cs">
+      <DependentUpon>Staff Signup.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.8\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -61,15 +239,113 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="admin1.resx">
-      <DependentUpon>admin1.cs</DependentUpon>
+    <EmbeddedResource Include="Admin Page.resx">
+      <DependentUpon>Admin Page.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="admin_login.resx">
-      <DependentUpon>admin_login.cs</DependentUpon>
+    <EmbeddedResource Include="Farm Bill.resx">
+      <DependentUpon>Farm Bill.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Milk Entry.resx">
+      <DependentUpon>Milk Entry.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Seller Bill.resx">
+      <DependentUpon>Seller Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product Bill.resx">
+      <DependentUpon>Product Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product Details.resx">
+      <DependentUpon>Product Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Milk Information.resx">
+      <DependentUpon>Milk Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order Milk.resx">
+      <DependentUpon>Order Milk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product Details Entry.resx">
+      <DependentUpon>Product Details Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Delete.resx">
+      <DependentUpon>Staff Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Manage.resx">
+      <DependentUpon>Staff Manage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Information.resx">
+      <DependentUpon>Staff Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Information Select.resx">
+      <DependentUpon>Staff Information Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plant Page.resx">
+      <DependentUpon>Plant Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seller Page.resx">
+      <DependentUpon>Seller Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retailer Page.resx">
+      <DependentUpon>Retailer Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Page.resx">
+      <DependentUpon>Staff Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plant Login.resx">
+      <DependentUpon>Plant Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plant Signup.resx">
+      <DependentUpon>Plant Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retailer Login.resx">
+      <DependentUpon>Retailer Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Retailer Signup.resx">
+      <DependentUpon>Retailer Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Login.resx">
+      <DependentUpon>Admin Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seller Login.resx">
+      <DependentUpon>Seller Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seller Signup.resx">
+      <DependentUpon>Seller Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Login.resx">
+      <DependentUpon>Staff Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Signup.resx">
+      <DependentUpon>Staff Signup.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dairy_mgmt_dbms_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

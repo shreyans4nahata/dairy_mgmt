@@ -1,4 +1,50 @@
-C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.admin1.resources
-C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.admin_login.resources
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form1.resources
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.csproj.GenerateResource.Cache
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormMain.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormPlant.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormPlantSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormRetailer.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormRetailerSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormAdmin.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormSeller.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormSellerSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormStaff.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormStaffSign.resources
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.csproj.GenerateResource.Cache
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.exe
+C:\Users\Shrirag\Documents\GitHub\dairy_mgmt\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.pdb
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.exe
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.pdb
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\bin\Debug\dairy_mgmt_dbms.exe.manifest
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\bin\Debug\dairy_mgmt_dbms.application
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\bin\Debug\dairy_mgmt_dbms.exe
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\bin\Debug\dairy_mgmt_dbms.pdb
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormAdminPage.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form15.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form16.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form14.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form13.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form12.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form9.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form10.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form11.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form7.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form8.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form6.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form5.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form4.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form3.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form2.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormMain.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormPlant.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormPlantSign.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormRetailer.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormRetailerSign.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormAdmin.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormSeller.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormSellerSign.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormStaff.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormStaffSign.resources
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.exe.manifest
+C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.application
+C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.csprojResolveAssemblyReference.cache
