@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient; 
 
 namespace dairy_mgmt_dbms
 {
@@ -21,7 +22,7 @@ namespace dairy_mgmt_dbms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
