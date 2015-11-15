@@ -69,12 +69,6 @@
     <Compile Include="Admin Page.Designer.cs">
       <DependentUpon>Admin Page.cs</DependentUpon>
     </Compile>
-    <Compile Include="Farm Bill.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Farm Bill.Designer.cs">
-      <DependentUpon>Farm Bill.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formplantorder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,29 +99,11 @@
     <Compile Include="retailersellerordercs.Designer.cs">
       <DependentUpon>retailersellerordercs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Seller Bill.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Seller Bill.Designer.cs">
-      <DependentUpon>Seller Bill.cs</DependentUpon>
-    </Compile>
     <Compile Include="Product Details Entry.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Product Details Entry.Designer.cs">
       <DependentUpon>Product Details Entry.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Order Milk.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Order Milk.Designer.cs">
-      <DependentUpon>Order Milk.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Milk Information.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Milk Information.Designer.cs">
-      <DependentUpon>Milk Information.cs</DependentUpon>
     </Compile>
     <Compile Include="Staff Manage.cs">
       <SubType>Form</SubType>
@@ -236,9 +212,6 @@
     <EmbeddedResource Include="Admin Page.resx">
       <DependentUpon>Admin Page.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Farm Bill.resx">
-      <DependentUpon>Farm Bill.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formplantorder.resx">
       <DependentUpon>Formplantorder.cs</DependentUpon>
     </EmbeddedResource>
@@ -253,15 +226,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="retailersellerordercs.resx">
       <DependentUpon>retailersellerordercs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Seller Bill.resx">
-      <DependentUpon>Seller Bill.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Milk Information.resx">
-      <DependentUpon>Milk Information.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Order Milk.resx">
-      <DependentUpon>Order Milk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Product Details Entry.resx">
       <DependentUpon>Product Details Entry.cs</DependentUpon>
