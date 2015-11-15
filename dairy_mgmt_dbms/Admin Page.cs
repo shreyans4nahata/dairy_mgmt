@@ -74,6 +74,10 @@ namespace dairy_mgmt_dbms
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var formadmin = new Form8();
+            formadmin.Closed += (s, args) => this.Close();
+            formadmin.Show();
 
         }
 

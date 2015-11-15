@@ -111,12 +111,6 @@
     <Compile Include="Order Milk.Designer.cs">
       <DependentUpon>Order Milk.cs</DependentUpon>
     </Compile>
-    <Compile Include="Staff Delete.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Staff Delete.Designer.cs">
-      <DependentUpon>Staff Delete.cs</DependentUpon>
-    </Compile>
     <Compile Include="Milk Information.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,18 +122,6 @@
     </Compile>
     <Compile Include="Staff Manage.Designer.cs">
       <DependentUpon>Staff Manage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Staff Information.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Staff Information.Designer.cs">
-      <DependentUpon>Staff Information.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Staff Information Select.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Staff Information Select.Designer.cs">
-      <DependentUpon>Staff Information Select.cs</DependentUpon>
     </Compile>
     <Compile Include="Plant Page.cs">
       <SubType>Form</SubType>
@@ -266,17 +248,8 @@
     <EmbeddedResource Include="Product Details Entry.resx">
       <DependentUpon>Product Details Entry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Staff Delete.resx">
-      <DependentUpon>Staff Delete.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Staff Manage.resx">
       <DependentUpon>Staff Manage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Staff Information.resx">
-      <DependentUpon>Staff Information.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Staff Information Select.resx">
-      <DependentUpon>Staff Information Select.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Plant Page.resx">
       <DependentUpon>Plant Page.cs</DependentUpon>
