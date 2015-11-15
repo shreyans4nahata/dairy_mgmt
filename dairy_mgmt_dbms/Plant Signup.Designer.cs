@@ -134,9 +134,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(42, 136);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 13);
+            this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 12;
-            this.label5.Text = "Password";
+            this.label5.Text = "Name";
             // 
             // textBox4
             // 
@@ -144,7 +144,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(188, 20);
             this.textBox4.TabIndex = 11;
-            this.textBox4.UseSystemPasswordChar = true;
             // 
             // FormPlantSign
             // 

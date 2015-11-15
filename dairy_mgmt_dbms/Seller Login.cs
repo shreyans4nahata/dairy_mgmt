@@ -45,7 +45,7 @@ namespace dairy_mgmt_dbms
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form = new FormStaffSign();
+            var form = new FormSellerSign();
             form.Closed += (s, args) => this.Close();
             form.Show();
         }
