@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+/*
+ Shreyansh Nahata
+ */
 namespace dairy_mgmt_dbms
 {
     public partial class Form8 : Form
@@ -76,6 +79,11 @@ namespace dairy_mgmt_dbms
                 MessageBox.Show("Invalid entry");
                 Console.WriteLine("Exception : {0}", ex);
             }
+        }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

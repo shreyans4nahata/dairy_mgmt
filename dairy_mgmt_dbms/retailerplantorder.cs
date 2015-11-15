@@ -5,86 +5,64 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
 /*
  Shreyansh Nahata
  */
 namespace dairy_mgmt_dbms
 {
-    public partial class FormPlantSign : Form
+    public partial class retailerplantorder : Form
     {
-        public FormPlantSign()
+        public retailerplantorder()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen;
-        }
-
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form = new FormPlant();
+            var form = new Form2();
             form.Closed += (s, args) => this.Close();
             form.Show();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string pass, name, addr;
-            int? id;
+            int? id, sid,type, amt, numberOfRecords;
             try
             {
                 //id
                 id = int.Parse(textBox1.Text);
                 if (id == null)
                 {
-                    MessageBox.Show("Enter Id !!");
+                    MessageBox.Show("Enter Bill number !!");
                 }
                 Console.WriteLine("id {0}", id);
-                //password
-                pass = textBox2.Text;
-                if (pass == null)
+                //Type
+                type = int.Parse(textBox5.Text);
+                if (type == null)
                 {
-                    MessageBox.Show("Enter Password !!");
+                    MessageBox.Show("Enter type !!");
                 }
-                Console.WriteLine("password {0}", pass);
-                //name
-                name = textBox4.Text;
-                if (name == null)
+                Console.WriteLine("type  {0}", type);
+                //Fat
+                amt = int.Parse(textBox6.Text);
+                if (amt == null)
                 {
-                    MessageBox.Show("Enter Name !!");
+                    MessageBox.Show("Enter Amount !!");
                 }
-                Console.WriteLine("Name {0}", name);
-                //address
-                addr = (textBox3.Text);
-                if (addr == null)
+                Console.WriteLine("amt  {0}", amt);
+
+                //Plant-id
+                sid = int.Parse(textBox7.Text);
+                if (sid == null)
                 {
-                    MessageBox.Show("Enter Address !!");
+                    MessageBox.Show("Enter planr-id from which to buy !!");
                 }
-                Console.WriteLine("address {0}", addr);
-                if (id != null && pass != null && name != null && addr != null )
+                Console.WriteLine("plant-id {0}", sid);
+                if (id != null && sid != null && amt != null  && type != null)
                 {
                     string cs = @"server=localhost;userid=root;password=1234;database=dairy_mgmt";
                     Console.WriteLine("inside");
@@ -100,18 +78,37 @@ namespace dairy_mgmt_dbms
                         // Create Command 
                         MySqlCommand cmd = new MySqlCommand();
                         cmd.Connection = conn;
-                        cmd.CommandText = "INSERT INTO plant VALUES (?id, ?name, ?addr, ?pass) ;";
-                        cmd.Parameters.AddWithValue("?id", id);
-                        cmd.Parameters.AddWithValue("?name", name);
-                        cmd.Parameters.AddWithValue("?addr", addr);
-                        cmd.Parameters.AddWithValue("?pass", pass);
+                        cmd.CommandText = "SELECT * FROM plant WHERE pl_id =" + sid + ";";
+                        //cmd.Parameters.AddWithValue("?ssid", sid);
                         Console.WriteLine("in1");
                         try
                         {
-                            cmd.ExecuteScalar();
-                            FormRetailer.r_id_g = id;
+                            numberOfRecords = Convert.ToInt32(cmd.ExecuteScalar());
+                            Console.WriteLine("no. of plants : {0}", numberOfRecords);
+                            if (numberOfRecords == -1)
+                            {
+                                MessageBox.Show("Invalid seller-id!!!");
+                            }
+                            if (numberOfRecords != -1)
+                            {
+                                cmd.Connection = conn;
+                                cmd.CommandText = "INSERT INTO plant_sold_re VALUES (?reid, ?type, ?amt, ?sid, ?id ) ;";
+                                cmd.Parameters.AddWithValue("?reid", FormRetailer.r_id_g);
+                                cmd.Parameters.AddWithValue("?type", type);
+                                cmd.Parameters.AddWithValue("?amt", amt);
+                                cmd.Parameters.AddWithValue("?sid", sid);
+                                cmd.Parameters.AddWithValue("?id", id);
+                                
+                                Console.WriteLine("in2");
+                                try
+                                {
+                                    cmd.ExecuteScalar();
+                                }
+                                catch (Exception ex) { Console.WriteLine("Exception : {0}", ex); }
+                            }
                         }
                         catch (Exception ex) { Console.WriteLine("Exception : {0}", ex); }
+
 
                         Console.WriteLine("MySQL version : {0}", conn.ServerVersion);
 
@@ -136,22 +133,24 @@ namespace dairy_mgmt_dbms
                         }
                     }
                 }
-                if (FormRetailer.r_id_g == null)
-                {
-                    MessageBox.Show("INVALID USER!!");
-                }
-                else
-                {
-                    this.Hide();
-                    var form = new Form2();
-                    form.Closed += (s, args) => this.Close();
-                    form.Show();
-                }
+
+
+                this.Hide();
+                var form = new Form2();
+                form.Closed += (s, args) => this.Close();
+                form.Show();
+
             }
             catch
             {
                 MessageBox.Show("Enter valid Entries !!");
             }
+        
+        }
+
+        private void retailerplantorder_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

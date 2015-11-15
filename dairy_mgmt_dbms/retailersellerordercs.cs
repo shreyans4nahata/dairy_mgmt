@@ -12,25 +12,19 @@ using MySql.Data.MySqlClient;
  */
 namespace dairy_mgmt_dbms
 {
-    public partial class Formsellerorder : Form
+    public partial class retailersellerordercs : Form
     {
-        public Formsellerorder()
+        public retailersellerordercs()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var form = new Form3();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
-
-            int? id, sid, amt, numberOfRecords;
+            int? id, sid, qty, amt, numberOfRecords;
+            string source;
+            DateTime date;
+            float? fat;
             try
             {
                 //id
@@ -40,21 +34,50 @@ namespace dairy_mgmt_dbms
                     MessageBox.Show("Enter Bill number !!");
                 }
                 Console.WriteLine("id {0}", id);
-                //staff-id
-                sid = int.Parse(textBox2.Text);
-                if (sid == null)
+                //source
+                source = (textBox2.Text);
+                if (source == null)
                 {
-                    MessageBox.Show("Enter staff-id from which to buy !!");
+                    MessageBox.Show("Enter Source !!");
                 }
-                Console.WriteLine("st-id {0}", sid);
-                //amount
-                amt = int.Parse(textBox3.Text);
+                Console.WriteLine("source  {0}", source);
+                //date
+                date = DateTime.Parse(textBox3.Text);
+                if (date == null)
+                {
+                    MessageBox.Show("Enter date !!");
+                }
+                Console.WriteLine("date  {0}", date);
+                //qty
+                qty = int.Parse(textBox4.Text);
+                if (qty == null)
+                {
+                    MessageBox.Show("Enter Quantity !!");
+                }
+                Console.WriteLine("qty  {0}", qty);
+                //Price
+                amt = int.Parse(textBox5.Text);
                 if (amt == null)
                 {
-                    MessageBox.Show("Enter Total amount !!");
+                    MessageBox.Show("Enter amount !!");
                 }
                 Console.WriteLine("amt  {0}", amt);
-                if (id != null && sid != null && amt != null )
+                //Fat
+                fat = float.Parse(textBox6.Text);
+                if (fat == null)
+                {
+                    MessageBox.Show("Enter fat%age !!");
+                }
+                Console.WriteLine("fat  {0}", fat);
+
+                //seller-id
+                sid = int.Parse(textBox7.Text);
+                if (sid == null)
+                {
+                    MessageBox.Show("Enter seller-id from which to buy !!");
+                }
+                Console.WriteLine("seller-id {0}", sid);
+                if (id != null && sid != null && amt != null && date != null && qty != null && amt != null && source != null)
                 {
                     string cs = @"server=localhost;userid=root;password=1234;database=dairy_mgmt";
                     Console.WriteLine("inside");
@@ -70,24 +93,29 @@ namespace dairy_mgmt_dbms
                         // Create Command 
                         MySqlCommand cmd = new MySqlCommand();
                         cmd.Connection = conn;
-                        cmd.CommandText = "SELECT * FROM staff WHERE staff_id ="+sid +";";
+                        cmd.CommandText = "SELECT * FROM seller WHERE seller_id =" + sid + ";";
                         //cmd.Parameters.AddWithValue("?ssid", sid);
                         Console.WriteLine("in1");
                         try
                         {
                             numberOfRecords = Convert.ToInt32(cmd.ExecuteScalar());
-                            Console.WriteLine("no. of staff : {0}", numberOfRecords);
-                            if(numberOfRecords == -1){
-                                MessageBox.Show("Invalid staff-id!!!");
+                            Console.WriteLine("no. of seller : {0}", numberOfRecords);
+                            if (numberOfRecords == -1)
+                            {
+                                MessageBox.Show("Invalid seller-id!!!");
                             }
                             if (numberOfRecords != -1)
                             {
                                 cmd.Connection = conn;
-                                cmd.CommandText = "INSERT INTO staff_bill VALUES (?id, ?sid, ?seid, ?amt) ;";
+                                cmd.CommandText = "INSERT INTO seller_bill_re VALUES (?id,?source,?date,?qty,?amt,?fat, ?sid, ?plid ) ;";
                                 cmd.Parameters.AddWithValue("?id", id);
-                                cmd.Parameters.AddWithValue("?sid", sid);
-                                cmd.Parameters.AddWithValue("?seid", FormSeller.seller_id_g);
+                                cmd.Parameters.AddWithValue("?source", source);
+                                cmd.Parameters.AddWithValue("?date", date);
+                                cmd.Parameters.AddWithValue("?qty", qty);
                                 cmd.Parameters.AddWithValue("?amt", amt);
+                                cmd.Parameters.AddWithValue("?fat", fat);
+                                cmd.Parameters.AddWithValue("?sid", sid);
+                                cmd.Parameters.AddWithValue("?plid", FormRetailer.r_id_g);
                                 Console.WriteLine("in2");
                                 try
                                 {
@@ -98,7 +126,7 @@ namespace dairy_mgmt_dbms
                         }
                         catch (Exception ex) { Console.WriteLine("Exception : {0}", ex); }
 
-                        
+
                         Console.WriteLine("MySQL version : {0}", conn.ServerVersion);
 
                         //to show data
@@ -122,21 +150,31 @@ namespace dairy_mgmt_dbms
                         }
                     }
                 }
-                
-                
-                    this.Hide();
-                    var form = new Form3();
-                    form.Closed += (s, args) => this.Close();
-                    form.Show();
-                
+
+
+                this.Hide();
+                var form = new Form2();
+                form.Closed += (s, args) => this.Close();
+                form.Show();
+
             }
             catch
             {
                 MessageBox.Show("Enter valid Entries !!");
             }
+        
         }
 
-        private void Formsellerorder_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form = new Form2();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+    
+        }
+
+        private void retailersellerordercs_Load(object sender, EventArgs e)
         {
 
         }

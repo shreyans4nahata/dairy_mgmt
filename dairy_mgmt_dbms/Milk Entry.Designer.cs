@@ -141,6 +141,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form16";
             this.Text = "Collection Details";
+            this.Load += new System.EventHandler(this.Form16_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

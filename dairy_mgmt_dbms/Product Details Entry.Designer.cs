@@ -102,6 +102,7 @@
             this.Controls.Add(this.textBox2);
             this.Name = "Form11";
             this.Text = "Product Details";
+            this.Load += new System.EventHandler(this.Form11_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -81,6 +81,7 @@
             this.Controls.Add(this.button2);
             this.Name = "Form8";
             this.Text = "Staff Manage";
+            this.Load += new System.EventHandler(this.Form8_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

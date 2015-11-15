@@ -1,6 +1,6 @@
 ﻿namespace dairy_mgmt_dbms
 {
-    partial class Formplantorder
+    partial class retailersellerordercs
     {
         /// <summary>
         /// Required designer variable.
@@ -68,10 +68,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 11);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(508, 276);
-            this.panel1.TabIndex = 1;
+            this.panel1.Size = new System.Drawing.Size(553, 322);
+            this.panel1.TabIndex = 3;
             // 
             // textBox7
             // 
@@ -214,15 +214,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Order";
             // 
-            // Formplantorder
+            // retailersellerordercs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 299);
+            this.ClientSize = new System.Drawing.Size(669, 344);
             this.Controls.Add(this.panel1);
-            this.Name = "Formplantorder";
-            this.Text = "Formplantorder";
-            this.Load += new System.EventHandler(this.Formplantorder_Load);
+            this.Name = "retailersellerordercs";
+            this.Text = "retailersellerordercs";
+            this.Load += new System.EventHandler(this.retailersellerordercs_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -249,6 +249,5 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-
     }
 }

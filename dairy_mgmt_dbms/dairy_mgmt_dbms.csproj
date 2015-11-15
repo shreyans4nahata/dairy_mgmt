@@ -93,6 +93,18 @@
     <Compile Include="Milk Entry.Designer.cs">
       <DependentUpon>Milk Entry.cs</DependentUpon>
     </Compile>
+    <Compile Include="retailerplantorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="retailerplantorder.Designer.cs">
+      <DependentUpon>retailerplantorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="retailersellerordercs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="retailersellerordercs.Designer.cs">
+      <DependentUpon>retailersellerordercs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Seller Bill.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +247,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Milk Entry.resx">
       <DependentUpon>Milk Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="retailerplantorder.resx">
+      <DependentUpon>retailerplantorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="retailersellerordercs.resx">
+      <DependentUpon>retailersellerordercs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seller Bill.resx">
       <DependentUpon>Seller Bill.cs</DependentUpon>

@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+/*
+ Shreyansh Nahata
+ */
 namespace dairy_mgmt_dbms
 {
     public partial class Form16 : Form
@@ -135,6 +138,11 @@ namespace dairy_mgmt_dbms
             var form = new Form1();
             form.Closed += (s, args) => this.Close();
             form.Show();
+
+        }
+
+        private void Form16_Load(object sender, EventArgs e)
+        {
 
         }
     }

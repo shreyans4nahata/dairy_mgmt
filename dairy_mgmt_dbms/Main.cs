@@ -6,8 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient; 
-
+using MySql.Data.MySqlClient;
+/*
+ Shreyansh Nahata
+ */
 namespace dairy_mgmt_dbms
 {
     public partial class FormMain : Form
