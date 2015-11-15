@@ -47,14 +47,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dairy_mgmt_dbms.exe" size="68096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dairy_mgmt_dbms.exe" size="68608">
       <assemblyIdentity name="dairy_mgmt_dbms" version="0.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>GYsMizZd66v+FRtrpHViCQozPnI=</dsig:DigestValue>
+        <dsig:DigestValue>uJ57PSS/+xFZamJDsYP0XLvB6Bg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

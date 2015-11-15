@@ -30,5 +30,14 @@ namespace dairy_mgmt_dbms
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form = new FormPlant();
+            FormPlant.pl_id_g = null;
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+        }
     }
 }
