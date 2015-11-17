@@ -182,7 +182,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "FormRetailerSign";
-            this.Text = "Retailer Signup";
+            this.Text = "retailer Signup";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

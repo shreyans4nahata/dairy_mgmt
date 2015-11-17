@@ -51,7 +51,7 @@ namespace dairy_mgmt_dbms
                     conn.Open();
                     Console.WriteLine("MySQL version : {0}", conn.ServerVersion);
                     //to show data
-                    MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM staff AS S , milk_info AS M WHERE M.DOC IN (SELECT DOC FROM staff_collects where staff_id =" + FormStaff.staff_id_g+ ");", conn);
+                    MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM staff AS S , milk_info AS M WHERE S.staff_id = " + FormStaff.staff_id_g + " AND M.DOC IN (SELECT DOC FROM staff_collects where staff_id =" + FormStaff.staff_id_g + ");", conn);
                     //MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM staff;", conn);
                     DataSet ds = new DataSet();
                     da.Fill(ds);

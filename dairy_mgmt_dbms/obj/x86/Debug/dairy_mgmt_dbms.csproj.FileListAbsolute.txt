@@ -20,11 +20,7 @@ C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_m
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\bin\Debug\dairy_mgmt_dbms.exe
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\bin\Debug\dairy_mgmt_dbms.pdb
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FormAdminPage.resources
-C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form15.resources
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form16.resources
-C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form14.resources
-C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form9.resources
-C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form10.resources
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form11.resources
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form8.resources
 C:\Users\Shreyansh\Documents\Visual Studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.Form4.resources
