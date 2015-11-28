@@ -21,6 +21,8 @@ namespace dairy_mgmt_dbms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DateTime result = dateTimePicker1.Value;
+            
             string  name ;
             DateTime date;
             float? fat;
@@ -28,7 +30,8 @@ namespace dairy_mgmt_dbms
             try
             {
                 //date
-                date = DateTime.Parse(textBox1.Text);
+                date = dateTimePicker1.Value;
+                //date = DateTime.Parse(textBox1.Text);
                 if (date == null)
                 {
                     MessageBox.Show("Enter Date !!");
@@ -142,6 +145,10 @@ namespace dairy_mgmt_dbms
         }
 
         private void Form16_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
         }

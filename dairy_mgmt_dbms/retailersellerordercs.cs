@@ -42,7 +42,8 @@ namespace dairy_mgmt_dbms
                 }
                 Console.WriteLine("source  {0}", source);
                 //date
-                date = DateTime.Parse(textBox3.Text);
+                date = dateTimePicker1.Value;
+                //date = DateTime.Parse(textBox3.Text);
                 if (date == null)
                 {
                     MessageBox.Show("Enter date !!");
