@@ -69,6 +69,12 @@
     <Compile Include="Admin Page.Designer.cs">
       <DependentUpon>Admin Page.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminadd.Designer.cs">
+      <DependentUpon>adminadd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formplantorder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +217,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Admin Page.resx">
       <DependentUpon>Admin Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminadd.resx">
+      <DependentUpon>adminadd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formplantorder.resx">
       <DependentUpon>Formplantorder.cs</DependentUpon>
