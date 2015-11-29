@@ -129,5 +129,14 @@ namespace dairy_mgmt_dbms
             form.Show();
                 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form = new datespec1();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+            
+        }
     }
 }

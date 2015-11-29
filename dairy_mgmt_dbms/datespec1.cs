@@ -7,38 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
-/*
- Shreyansh Nahata
- */
 namespace dairy_mgmt_dbms
 {
-    public partial class Form1 : Form
+    public partial class datespec1 : Form
     {
-        public Form1()
+        public datespec1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var form = new Form16();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var form = new FormStaff();
-            FormStaff.staff_id_g = null;
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
-
         private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form = new FormAdminPage();
+            form.Closed += (s, args) => this.Close();
+            form.Show();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -50,9 +37,11 @@ namespace dairy_mgmt_dbms
                     conn = new MySqlConnection(cs);
                     conn.Open();
                     Console.WriteLine("MySQL version : {0}", conn.ServerVersion);
+                    DateTime date;
+
                     //to show data
-                    MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM staff AS S , milk_info AS M WHERE S.staff_id = " + FormStaff.staff_id_g + " AND M.DOC IN (SELECT DOC FROM staff_collects where staff_id =" + FormStaff.staff_id_g + ");", conn);
-                    //MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM staff;", conn);
+                    date = dateTimePicker1.Value;
+                    MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM milk_info WHERE milk_info.DOC = "+date+ " ;", conn);
                     DataSet ds = new DataSet();
                     da.Fill(ds);
                     dataGridView1.DataSource = ds.Tables[0];
@@ -73,19 +62,7 @@ namespace dairy_mgmt_dbms
             {
                 MessageBox.Show("Error");
             }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var form = new FarmBill();
-            form.Closed += (s, args) => this.Close();
-            form.Show();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }
