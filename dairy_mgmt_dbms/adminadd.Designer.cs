@@ -105,6 +105,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(125, 20);
             this.textBox3.TabIndex = 7;
+            this.textBox3.UseSystemPasswordChar = true;
             // 
             // adminadd
             // 
