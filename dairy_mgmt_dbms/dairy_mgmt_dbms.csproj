@@ -75,6 +75,12 @@
     <Compile Include="adminadd.Designer.cs">
       <DependentUpon>adminadd.cs</DependentUpon>
     </Compile>
+    <Compile Include="datespec1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datespec1.Designer.cs">
+      <DependentUpon>datespec1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FarmBill.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminadd.resx">
       <DependentUpon>adminadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datespec1.resx">
+      <DependentUpon>datespec1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FarmBill.resx">
       <DependentUpon>FarmBill.cs</DependentUpon>

@@ -37,11 +37,11 @@ namespace dairy_mgmt_dbms
                     conn = new MySqlConnection(cs);
                     conn.Open();
                     Console.WriteLine("MySQL version : {0}", conn.ServerVersion);
-                    DateTime date;
-
+                    string date;
                     //to show data
-                    date = dateTimePicker1.Value;
-                    MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM milk_info WHERE milk_info.DOC = "+date+ " ;", conn);
+                    date = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+                    Console.WriteLine("Date : {0}", date);
+                    MySqlDataAdapter da = new MySqlDataAdapter("SELECT * FROM milk_info WHERE milk_info.DOC = '"+date+ "' ;", conn);
                     DataSet ds = new DataSet();
                     da.Fill(ds);
                     dataGridView1.DataSource = ds.Tables[0];

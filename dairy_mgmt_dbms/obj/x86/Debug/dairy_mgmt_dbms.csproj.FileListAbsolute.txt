@@ -45,3 +45,4 @@ C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_m
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.retailersellerordercs.resources
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.adminadd.resources
 C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.FarmBill.resources
+C:\Users\Shreyansh\documents\visual studio 2010\Projects\dairy_mgmt_dbms\dairy_mgmt_dbms\obj\x86\Debug\dairy_mgmt_dbms.datespec1.resources
