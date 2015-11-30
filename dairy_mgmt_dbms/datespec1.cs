@@ -11,6 +11,8 @@ namespace dairy_mgmt_dbms
 {
     public partial class datespec1 : Form
     {
+        DataTable datastuff, dstuff;
+        int inde = 0;
         public datespec1()
         {
             InitializeComponent();
@@ -87,6 +89,27 @@ namespace dairy_mgmt_dbms
                     DataSet ds = new DataSet();
                     da.Fill(ds);
                     dataGridView1.DataSource = ds.Tables[0];
+                    conn.Close();
+                    conn = new MySqlConnection(cs);
+                    conn.Open();
+                    
+                    string query1 = "SELECT SUM(quantity) FROM `milk_info` WHERE (milk_info.source ='cow') AND (milk_info.DOC BETWEEN '"+ date1 +"' AND '" + date2 +"') AND (milk_info.Fatage BETWEEN 1 AND 50) ";
+                    MySqlCommand cmdDatabase = new MySqlCommand(query1, conn);
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(cmdDatabase);
+                    DataSet dSet = new System.Data.DataSet();
+                    adapter.Fill(dSet, "stuff");
+                    datastuff = dSet.Tables["stuff"];
+
+                    textBox1.Text = (datastuff.Rows[0][0] + "");
+                    conn.Close();
+                    string query2 = "SELECT SUM(seller_bill_re.price) FROM `seller_bill_re` WHERE (seller_bill_re.date BETWEEN '"+date1+"' AND '"+date2+"') AND (seller_bill_re.r_id = 3) ";
+                    MySqlCommand cmdDatabase1 = new MySqlCommand(query2, conn);
+                    MySqlDataAdapter adapter1 = new MySqlDataAdapter(cmdDatabase1);
+                    adapter1.Fill(dSet, "some");
+                    dstuff = dSet.Tables["some"];
+
+                    textBox2.Text = (dstuff.Rows[0][0] + "");
+                    textBox3.Text = "cow";
                 }
                 catch (MySqlException ex)
                 {
@@ -104,6 +127,11 @@ namespace dairy_mgmt_dbms
             {
                 MessageBox.Show("Error");
             }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

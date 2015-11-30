@@ -32,10 +32,21 @@ namespace dairy_mgmt_dbms
         }
         private void refreshValues()
         {
-            textBox1.Text = (Bills.Rows[billIndex]["st_b_id"] + "");
-            textBox2.Text = (FormStaff.staff_id_g + "");
-            textBox3.Text = Bills.Rows[billIndex]["seller_id"]+"";
-            textBox4.Text = Bills.Rows[billIndex]["amt"]+"";
+            try
+            {
+                textBox1.Text = (Bills.Rows[billIndex]["st_b_id"] + "");
+                textBox2.Text = (FormStaff.staff_id_g + "");
+                textBox3.Text = Bills.Rows[billIndex]["seller_id"] + "";
+                textBox4.Text = Bills.Rows[billIndex]["amt"] + "";
+            }
+            catch (Exception ex) {
+                Console.WriteLine("{0}", ex);
+                this.Hide();
+                var form = new Form1();
+                form.Closed += (s, args) => this.Close();
+                form.Show();
+        
+            }
         }
 
         private void FarmBill_Load(object sender, EventArgs e)
